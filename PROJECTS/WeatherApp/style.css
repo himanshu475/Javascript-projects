@@ -46,17 +46,22 @@ body{
     margin-right: 16px;
     font-size: 18px;
 }
-
+.search input{
+    box-shadow: 4px 5px 15px #052659 ;
+}
 .search button{
     border: 0;
     outline: 0;
     background: #ebfffc;
-    box-shadow: 4px 5px 15px #052659 ;
+    box-shadow: 4px 5px 15px #222 ;
     border-radius: 50%;
     width: 60px;
     height: 60px;
     cursor: pointer;
 
+}
+.search button:hover{
+    box-shadow: 4px 10px 15px #050243 ;
 }
 
 .search button img{
