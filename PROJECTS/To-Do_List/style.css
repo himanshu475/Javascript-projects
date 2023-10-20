@@ -97,12 +97,12 @@ ul li span{
     width: 40px;
     height: 40px;
     font-size: 22px;
-    color: #555;   
+    color: #dc2b2b;;   
     line-height: 40px;
     text-align: center;
     border-radius: 50%;
 
 }
 ul li span:hover{
-    color:#edeef0
+    color:#dc2b2b;
 }
