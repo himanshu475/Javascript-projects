@@ -25,7 +25,7 @@ body {
   background: #724ae8;
   transition: all 0.2s ease;
 }
-/* body.show-chatbot .chatbot-toggler {
+body.show-chatbot .chatbot-toggler {
   transform: rotate(90deg);
 }
 .chatbot-toggler span {
@@ -38,28 +38,28 @@ body.show-chatbot .chatbot-toggler span:first-child  {
 }
 body.show-chatbot .chatbot-toggler span:last-child {
   opacity: 1;
-} */
+}
 .chatbot {
   position: fixed;
   right: 35px;
   bottom: 90px;
   width: 420px;
-  background: #000;
+  background: #fff;
   border-radius: 15px;
   overflow: hidden;
-  /* opacity: 0;
-  pointer-events: none; */
-  /* transform: scale(0.5);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.5);
   transform-origin: bottom right;
   box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
               0 32px 64px -48px rgba(0,0,0,0.5);
-  transition: all 0.1s ease; */
+  transition: all 0.1s ease;
 }
-/* body.show-chatbot .chatbot {
+body.show-chatbot .chatbot {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
-} */
+}
 .chatbot header {
   padding: 16px 0;
   position: relative;
@@ -84,7 +84,7 @@ header h2 {
   height: 510px;
   padding: 30px 20px 100px;
 }
-/* .chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
+.chatbot :where(.chatbox, textarea)::-webkit-scrollbar {
   width: 6px;
 }
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-track {
@@ -94,7 +94,7 @@ header h2 {
 .chatbot :where(.chatbox, textarea)::-webkit-scrollbar-thumb {
   background: #ccc;
   border-radius: 25px;
-} */
+}
 .chatbox .chat {
   display: flex;
   list-style: none;
@@ -169,7 +169,7 @@ header h2 {
   visibility: visible;
 }
 
-/* @media (max-width: 490px) {
+@media (max-width: 490px) {
   .chatbot-toggler {
     right: 20px;
     bottom: 20px;
@@ -191,4 +191,4 @@ header h2 {
   .chatbot header span {
     display: block;
   }
-} */
+}
